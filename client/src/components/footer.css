@@ -1,0 +1,77 @@
+.footer {
+    box-sizing: border-box;
+    margin-top: 600px;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+}
+
+.firstblock {
+    border: 1px solid aqua;
+    margin: 5px;
+    width: 30%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(213, 206, 206, 0.8);
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    background-color: black;
+}
+
+.redcircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 3px;
+}
+
+.outercircle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.maincircle {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 22px;
+}
+
+.endjam {
+    margin-left: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+}
+
+.endjam1 {
+    border: 1px solid rgb(175, 171, 171);
+    margin-left: 20px;
+  padding: 10px 0px 0px 20px;
+    width: 50px;
+    border-radius: 10px;
+    color: white;
+    box-sizing: border-box;
+ 
+}
+
+.mainendjam {
+    display: flex;
+    margin-left: 50%;
+    height: 50px;
+    margin-top: 12px;
+    box-sizing: border-box;
+}
